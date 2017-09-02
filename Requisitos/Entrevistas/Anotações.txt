@@ -1,0 +1,49 @@
+FUNCIONÁRIOS:
+
+Controle de faltas;
+Escala de trabalho;
+
+___________________________________________
+ADMINISTRAÇÃO (Coordenadora):
+
+Cronograma diário (Atividades);
+
+___________________________________________
+ESTOQUE COMPARTILHADO:
+
+Alimentação;
+Produtos de limpeza;
+___________________________________________
+ENFERMEIROS:
+
+Rotina diário;
+Medicamento e estoque;
+
+___________________________________________
+GESTÃO FINANCEIRA:
+
+Controle de gastos (Contas, Alimentação, limpeza, etc...);
+Emissão de recibos com assinaturas eletrónica;
+Contrato;
+
+___________________________________________
+GESTÃO DOS IDOSOS:
+
+Cronograma dos medicamentos;
+Estoque de medicamentos e higiene pessoal;
+Aréa para relatórios diários (Possível envio aos familiares);
+
+___________________________________________
+ACESSOS:
+
+Administração;
+Enfermeiras;
+Familiáres?;
+
+___________________________________________
+DISCUÇÕES:
+
+Página do cliente para acompanhar idosos;
+Acesso a cameras;
+
+
