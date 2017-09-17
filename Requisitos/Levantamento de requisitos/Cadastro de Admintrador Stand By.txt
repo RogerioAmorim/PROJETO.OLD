@@ -1,72 +1,25 @@
-[RF09] <Cadastro de usuarios administradores>
-Ator: <Administrador >
-Prioridade:	•	Essencial
-Entradas e pré condições: <O sistema deve estár logado com uma conta de administrador.>
+[RF*****] <OS de voucher >
+Ator: <Enfermeira/Cuidador >
+Prioridade:	•	Importante
+Entradas e pré condições: <O sistema deve estár logado com uma conta de enfermeira/cuidador.>
 Saídas e pós condições: <O sistema ira mostra uma mensagem com a confimarção de ação assim que processo seja comcluido>
 Fluxo de eventos principal
-1.	O usuario irá clicar em adicionar novo administrador;
-2.	O sistema irá redirecionaloda pra a tela de cadastro com duas opções, a premeira o usuario irá escolher um já cadastrado no sistema, o usuario irá cadastrar um novo administrador;
-3.	O usuario irá escolher a alternativa que deseja;
-4.	O sistema processa a requisição e adiciona o novo usuario;
+1.	O usuario irá clicar na funcionalidade referente ao voucher;
+2.	O sistema irá redirecionar o usuario ao formulario de voucher;
+3.	O usuario irá preencher os campos necessario, como quantia desejada e o motivo do voucher;
+4.	O sistema irá processar a requisição e gerar um alerta mostrando que a requisição foi bem sucedida;
+5.	O sistema irá alerta os usuarios administradores que há um novo OS de voucher a ser analisado;
 Fluxos secundários (alternativos e de exceção)
-<Fluxo secundário 9.1>
-1.	O usuario irá clicar em adicionar novo administrador;
-2.	O sistema irá processar a requisição e alerta que o usuario logado não possui permisões de adminitrdor;
-3.	O sistema irá retornar para tela principal do usuario logado;
-
-<Fluxo secundário 9.2>
-1.	O usuario irá clicar em adicionar novo administrador;
-2.	O sistema irá redirecionaloda pra a tela de cadastro com duas opções, a premeira o usuario irá escolher um já cadastrado no sistema, o usuario irá cadastrar um novo administrador;
-3.	O usuario irá escolher a primeira opção;
-4.	O sistema irá redireciona-lo para lista de funcionarios;
-5.	O usuario escolhe o funcionario que deseja;
-6.	O sistema irá alerta se o usuario realmente dejesa transformar aquele funcionario em adminitrador;
-7.	O usuario irá confimrar a mensagem;
-8.	O sistema irá mostrar uma mesnsagem confirmando que a ação foi concluida com exito;
-
-<Fluxo secundário 9.3>
-1.	O usuario irá clicar em adicionar novo administrador;
-2.	O sistema irá redirecionaloda pra a tela de cadastro com duas opções, a premeira o usuario irá escolher um já cadastrado no sistema, o usuario irá cadastrar um novo administrador;
-3.	O usuario irá escolher a primeira opção;
-4.	O sistema irá redireciona-lo para lista de funcionarios;
-5.	O usuario escolhe o funcionario que deseja;
-6.	O sistema irá alerta se o usuario realmente dejesa transformar aquele funcionario em adminitrador;
-7.	O usuario irá negar a mensagem;
-8.	O sistema irá retornar para a tela de cadastro de administrador;
-9.	O usuario irá cancelar a requisição;
-10.	O sistema retornará para a tela principal do usuario logado;
-
-<Fluxo secundário 9.4>
-1.	O usuario irá clicar em adicionar novo administrador;
-2.	O sistema irá redirecionaloda pra a tela de cadastro com duas opções, a premeira o usuario irá escolher um já cadastrado no sistema, o usuario irá cadastrar um novo administrador;
-3.	O usuario irá escolher a segunda opção;
-4.	O sistema irá redireciona-lo para formulario onde o usuario deverá preencher os campos obrigatórios;
-5.	O usuario preenche os campos nessecarios;
-6.	O sistema irá alerta se o usuario realmente deseja cadastrar aquele novo administrador;
-7.	O usuario irá confimrar a mensagem;
-8.	O sistema irá mostrar uma mesnsagem confirmando que a ação foi concluida com exito;
-
-<Fluxo secundário 9.5>
-1.	O usuario irá clicar em adicionar novo administrador;
-2.	O sistema irá redirecionaloda pra a tela de cadastro com duas opções, a premeira o usuario irá escolher um já cadastrado no sistema, o usuario irá cadastrar um novo administrador;
-3.	O usuario irá escolher a segunda opção;
-4.	O sistema irá redireciona-lo para formulario onde o usuario deverá preencher os campos obrigatórios;
-5.	O usuario preenche os campos nessecarios;
-6.	O sistema irá alerta que há campos que estão em branco ou imcorretos; 
-7.	O usuario irá corrigir os erros;
-8.	O sistema irá alerta se o usuario realmente deseja cadastrar aquele novo administrador;
-9.	O usuario irá confimrar a mensagem;
-10.	O sistema irá mostrar uma mesnsagem confirmando que a ação foi concluida com exito;
-
-<Fluxo secundário 9.6>
-9.	O usuario irá clicar em adicionar novo administrador;
-10.	O sistema irá redirecionaloda pra a tela de cadastro com duas opções, a premeira o usuario irá escolher um já cadastrado no sistema, o usuario irá cadastrar um novo administrador;
-11.	O usuario irá escolher a segunda opção;
-12.	O sistema irá redireciona-lo para formulario onde o usuario deverá preencher os campos obrigatórios;
-13.	O usuario preenche os campos nessecarios;
-14.	O usuario clica em cancelar;
-15.	O sistema irá alerta se o usuario realmente deseja cancelar aquela requisição;
-11.	O sistema irá retorna a tela de cadastro de administrador;
-12.	O usuario irá clicar em cancelar;
-13.	O sistema irá retonar para tela principal do usuario logado;
-
+<Fluxo secundário 8.1>
+1.	O usuario irá clicar na funcionalidade referente ao voucher;
+2.	O sistema irá redirecionar o usuario ao formulario de voucher;
+3.	O usuario irá preencher os campos necessario, como quantia desejada e o motivo do voucher;
+4.	O sistema irá processar a requisição e gerar um alerta mostrando que há campos obrigatorios vazios ou errados;
+5.	O usuario irá corrigir os erros apresentados;
+6.	O sitema irá seguir o fluxo padrão;
+<Fluxo secundário 8.2>
+1.	O usuario irá clicar na funcionalidade referente ao voucher;
+2.	O sistema irá redirecionar o usuario ao formulario de voucher;
+3.	O usuario irá preencher os campos necessario, como quantia desejada e o motivo do voucher;
+4.	O usuario irá cancelar o formulário;
+5.	O sistema irá retornar a pagina principal do usuario logado; 

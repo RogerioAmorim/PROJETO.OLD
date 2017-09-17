@@ -1,4 +1,4 @@
-FUNCIONÁRIOS:
+﻿FUNCIONÁRIOS:
 
 Controle de faltas;
 Escala de trabalho;
@@ -23,8 +23,9 @@ ___________________________________________
 GESTÃO FINANCEIRA:
 
 Controle de gastos (Contas, Alimentação, limpeza, etc...);
-Emissão de recibos com assinaturas eletrónica;
+Emissão de recibos com assinaturas eletrônica;
 Contrato;
+Vouchers para adiantamentos.
 
 ___________________________________________
 GESTÃO DOS IDOSOS:
@@ -44,6 +45,4 @@ ___________________________________________
 DISCUÇÕES:
 
 Página do cliente para acompanhar idosos;
-Acesso a cameras;
-
-
+Acesso a câmeras;
